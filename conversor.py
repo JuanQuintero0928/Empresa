@@ -12,6 +12,7 @@ print("""SELECCIONE UN TIPO DE MONEDA
 1->  Pesos Colombianos
 2->  Pesos Argentinos
 3->  Pesos Mexicanos
+4->  Euros
 """)
 
 opcion = int(input("ingrese numero : "))
@@ -22,5 +23,7 @@ elif opcion == 2:
     conversor("argentinos",121.04)
 elif opcion == 3:
     conversor("mexicanos",19.57)
+elif opcion == 4:
+    conversor("euros",4500)
 else:
     print("Por favor seleccione una opcion valida.")
